@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking page</title>
+</head>
+<body>
+    <div>
+        <center><h1>Bank Application Form</h1></center>
+        <div>
+            <h1>Applicants Information</h1>
+            <b>Enter name:</b><br>
+            <input type="text" placeholder="Enter your name"><hr>
+            <b>Date of Birth:</b><br>
+            <input type="date" name="Bank Applicant BOD" id="BOD"><hr>
+            <b>Aadhar number:</b><br>
+            <input type="text" placeholder="Aadhar Number"><hr>
+            <b>Gender:</b><br>
+            <label for="Male">
+                <input type="radio" value="Male" name="Male" id="maleid">Male
+            </label><br>
+            <label for="Female">
+                <input type="radio" value="Female" name="Female" id="Female id">Female
+            </label><hr>
+            <b>Email Address:</b><br>
+            <input type="text" name="Email Address" id="default"><hr>
+            <b>Phone number:</b><br>
+            <input type="text" name="Phone number" id="default"><hr>
+            <label for="City"><b>Select Your City</b></label>
+            <select name="City" id="City">
+                <option value="default">Select your city</option>
+                <option value="Nashik">Nashik</option>
+                <option value="Jalgaon">Jalgaon</option>
+                <option value="Dhule">Dhule</option>
+                <option value="Palghar">Palghar</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Ratnagiri">Ratnagiri</option>
+
+            </select>
+            <hr>
+            <label for="State"><b>Select Your State</b></label>
+            <select name="State" id="State">
+                <option value="default">Select Your State</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="UP">UP</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+            <hr>
+            <b>Postal Code:</b><br>
+            <input type="text" name="Postal code" id="default"><hr>
+            <label for="country"><b>Select your country:</b></label>
+            <!-- Select tag is used to give user the multiple options and from that optiions user can select only one -->
+            <select id="country" name="country">
+                <option value="default">--Select your country--</option>
+                
+                <option value="AF">Afghanistan</option>
+                <option value="AL">Albania</option>
+                <option value="DZ">Algeria</option>
+                <option value="AS">American Samoa</option>
+                <option value="AD">Andorra</option>
+                <option value="AO">Angola</option>
+                <option value="AR">Argentina</option>
+                <option value="AM">Armenia</option>
+                <option value="AU">Australia</option>
+                <option value="AT">Austria</option>
+                <option value="AZ">Azerbaijan</option>
+                <option value="India">India</option>
+                <!-- Add more countries here -->
+            </select>
+
+
+
+            
+
+
+        </div>    <!--the css box model is essentiall a box that wraps around every html element . it consist of:margins,borders,padding and the actual content-->
+        <button type="submit" class="btn">Submit</button>
+        
+
+
+
+    </div>
+    
+</body>
+</html>
