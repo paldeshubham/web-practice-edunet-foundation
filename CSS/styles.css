@@ -1,0 +1,30 @@
+body{
+    font-family:  Tahoma;
+    font-size: 24px;
+}
+div.box{
+    border: 5px solid red;
+    width: 600px;
+    height: 600px;
+    overflow: scroll;
+    position: relative;
+
+}
+div.box img{
+    /* position: fixed;
+    left: 300px;
+    right: 300px;
+    top: 300px; */
+
+    /* position: fixed;
+    left: 700px;
+    right: 300px;
+    top: 300px; */
+    /* fixed is a subset of absolute */
+    position: absolute;
+    left: 300px;
+    right: 300px;
+    top: 300px;
+    
+    
+}
